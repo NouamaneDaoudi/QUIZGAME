@@ -1,0 +1,77 @@
+:root{
+     --first-color:#2f084f;
+     --second-color:#d9b5f7;
+     --bg-color:#e0fdfc;
+     --bg-color2:#e5e5f5;
+     --light-color:#fae4e3;
+     --padding: 8%;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.radios{
+    display: grid;
+    justify-content: center;
+    padding: 10em 0em;
+    background-color: var(--first-color);
+    
+        
+    
+   
+}
+.radio{
+    border: solid 2px;
+/*    padding: 50% 50%;*/
+    width: 40em;
+    padding: 4em;
+    border-radius:12px 12px 0 0;
+    color: var(--first-color);
+    background-color: var(--second-color);
+    border-style: none;
+    box-shadow:0 0 32px var( --bg-color2);
+}
+.radio h3{
+    display: flex;
+    justify-content: center;
+    font-family: monospace;
+    padding-bottom: 20px;
+    text-decoration: underline;
+    
+}
+.text{
+    display: grid;
+    justify-content: center;
+/*    flex-direction: column;*/
+    list-style-type: none;
+/*    align-items: center;*/
+   font-family: monospace;
+
+}
+
+#html{
+   margin-right: 15px;
+}
+#html2{
+   margin-right: 15px;
+}
+button{
+    display: flex;
+    justify-content: center;
+    padding: 2em 18.5rem;
+    border-radius:0 0 12px 12px ;
+    transition: all 0.5s;
+    cursor: pointer;
+    background-color: var(--bg-color2);
+    color: var(--first-color);
+    border-style: none;
+    font-family:monospace;
+    box-shadow: 0 0 35px var( --bg-color2);
+}
+button:hover{
+    background-color: var(--clr);
+    color: var(--light-color);
+    box-shadow: 0 0 10px 10px var( --second-color);
+}
